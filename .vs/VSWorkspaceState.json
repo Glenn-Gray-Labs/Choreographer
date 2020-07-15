@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cimgui-freetype",
+    "\\cimgui-unity",
+    "\\cimgui-unity\\choreographer",
+    "\\ImGui.NET",
+    "\\ImGui.NET\\src",
+    "\\ImGui.NET\\src\\CodeGenerator",
+    "\\ImGui.NET\\src\\ImGui.NET",
+    "\\ImGui.NET\\src\\ImGui.NET\\Generated"
+  ],
+  "SelectedNode": "\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}

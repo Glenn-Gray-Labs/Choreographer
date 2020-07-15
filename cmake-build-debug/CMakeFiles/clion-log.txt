@@ -1,0 +1,9 @@
+"C:\Users\Caleb Gray\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\Caleb Gray\Projects\Choreographer"
+-- Could NOT find harfbuzz (missing: HARFBUZZ_INCLUDE_DIRS HARFBUZZ_LIBRARIES) 
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY) (found version "1.2.11")
+-- Could NOT find PNG (missing: PNG_LIBRARY PNG_PNG_INCLUDE_DIR) 
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY) (found version "1.2.11")
+-- Could NOT find BZip2 (missing: BZIP2_LIBRARIES) (found version "1.0.8")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Caleb Gray/Projects/Choreographer/cmake-build-debug

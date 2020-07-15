@@ -1,0 +1,172 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.cpp
+./imgui/imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+./imgui/imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+cimgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.h
+stdio.h
+-
+stdint.h
+-
+stdarg.h
+-
+stdbool.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imconfig.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+ctype.h
+-
+stdio.h
+-
+stddef.h
+-
+stdint.h
+-
+stb_sprintf.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/stb_sprintf.h
+Windows.h
+-
+windows.h
+-
+TargetConditionals.h
+-
+Carbon/Carbon.h
+-
+imm.h
+-
+imgui_user.inl
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_user.inl
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imconfig.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+stdint.h
+-
+imgui_user.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_user.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_demo.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+ctype.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdint.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_draw.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+stdio.h
+-
+alloca.h
+-
+malloc.h
+-
+stdlib.h
+-
+imstb_rectpack.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_rectpack.h
+imstb_truetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_truetype.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+limits.h
+-
+imstb_textedit.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_textedit.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_widgets.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+ctype.h
+-
+stddef.h
+-
+stdint.h
+-
+imstb_textedit.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_textedit.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_rectpack.h
+stdlib.h
+-
+assert.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_textedit.h
+string.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_truetype.h
+stb_truetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/stb_truetype.h
+stdio.h
+-
+stb_truetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/stb_truetype.h
+math.h
+-
+math.h
+-
+math.h
+-
+math.h
+-
+math.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+string.h
+-
+

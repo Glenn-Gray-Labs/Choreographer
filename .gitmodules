@@ -1,3 +1,6 @@
 [submodule "cimgui"]
 	path = cimgui
 	url = git@github.com:calebgray/cimgui.git
+[submodule "ImGui.NET"]
+	path = ImGui.NET
+	url = git@github.com:calebgray/ImGui.NET.git

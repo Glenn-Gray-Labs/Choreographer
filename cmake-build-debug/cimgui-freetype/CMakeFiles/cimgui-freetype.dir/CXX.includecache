@@ -1,0 +1,88 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cimgui-freetype/freetype2/include/freetype/config/ftheader.h
+
+../cimgui-freetype/freetype2/include/ft2build.h
+freetype/config/ftheader.h
+-
+
+../cimgui/imgui/imconfig.h
+
+../cimgui/imgui/imgui.h
+imconfig.h
+../cimgui/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+stdint.h
+-
+imgui_user.h
+../cimgui/imgui/imgui_user.h
+
+../cimgui/imgui/imgui_internal.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+limits.h
+-
+imstb_textedit.h
+../cimgui/imgui/imstb_textedit.h
+
+../cimgui/imgui/imstb_rectpack.h
+stdlib.h
+-
+assert.h
+-
+
+../cimgui/imgui/imstb_textedit.h
+string.h
+-
+
+../cimgui/imgui/misc/freetype/imgui_freetype.h
+imgui.h
+../cimgui/imgui/misc/freetype/imgui.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-freetype/cimgui_freetype.cpp
+cimgui_freetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-freetype/cimgui_freetype.h
+imgui_freetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-freetype/imgui_freetype.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-freetype/cimgui_freetype.h
+stdarg.h
+-
+stdbool.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/misc/freetype/imgui_freetype.cpp
+imgui_freetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/misc/freetype/imgui_freetype.h
+imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/misc/freetype/imgui_internal.h
+stdint.h
+-
+ft2build.h
+-
+imstb_rectpack.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/misc/freetype/imstb_rectpack.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/misc/freetype/imgui_freetype.h
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/misc/freetype/imgui.h
+

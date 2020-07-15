@@ -1,0 +1,452 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cimgui-unity/NodeEditor/imgui_node_editor.h
+imgui.h
+-
+cstdint
+-
+utility
+-
+
+../cimgui-unity/ax/Builders.h
+NodeEditor/imgui_node_editor.h
+-
+Math2D.h
+../cimgui-unity/ax/Math2D.h
+
+../cimgui-unity/ax/Drawing.h
+imgui.h
+../cimgui-unity/ax/imgui.h
+
+../cimgui-unity/ax/Math2D.h
+algorithm
+-
+type_traits
+-
+vector
+-
+map
+-
+cmath
+-
+Math2D.inl
+../cimgui-unity/ax/Math2D.inl
+
+../cimgui-unity/ax/Math2D.inl
+utility
+-
+cmath
+-
+
+../cimgui-unity/ax/Widgets.h
+imgui.h
+../cimgui-unity/ax/imgui.h
+Drawing.h
+../cimgui-unity/ax/Drawing.h
+
+../cimgui/imgui/imconfig.h
+
+../cimgui/imgui/imgui.h
+imconfig.h
+../cimgui/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+stdint.h
+-
+imgui_user.h
+../cimgui/imgui/imgui_user.h
+
+../cimgui/imgui/imgui_internal.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+limits.h
+-
+imstb_textedit.h
+../cimgui/imgui/imstb_textedit.h
+
+../cimgui/imgui/imstb_textedit.h
+string.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/crude_json.cpp
+crude_json.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/crude_json.h
+iomanip
+-
+limits
+-
+cstdlib
+-
+clocale
+-
+cmath
+-
+cstring
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/crude_json.h
+type_traits
+-
+string
+-
+vector
+-
+map
+-
+cstddef
+-
+algorithm
+-
+sstream
+-
+cassert
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_bezier_math.h
+imgui_extra_math.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_extra_math.h
+imgui_bezier_math.inl
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_bezier_math.inl
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_bezier_math.inl
+imgui_bezier_math.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_bezier_math.h
+map
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_canvas.cpp
+imgui_canvas.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_canvas.h
+type_traits
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_canvas.h
+imgui.h
+-
+imgui_internal.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_extra_math.h
+imgui.h
+-
+imgui_internal.h
+-
+imgui_extra_math.inl
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_extra_math.inl
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_extra_math.inl
+imgui_extra_math.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_extra_math.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor.cpp
+imgui_node_editor_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_internal.h
+cstdio
+-
+string
+-
+fstream
+-
+bitset
+-
+climits
+-
+algorithm
+-
+sstream
+-
+streambuf
+-
+type_traits
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor.h
+imgui.h
+-
+cstdint
+-
+utility
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_api.cpp
+imgui_node_editor_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_internal.h
+algorithm
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_internal.h
+imgui_node_editor.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor.h
+imgui.h
+-
+imgui_internal.h
+-
+imgui_extra_math.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_extra_math.h
+imgui_bezier_math.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_bezier_math.h
+imgui_canvas.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_canvas.h
+crude_json.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/crude_json.h
+vector
+-
+string
+-
+imgui_node_editor_internal.inl
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_internal.inl
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_internal.inl
+imgui_node_editor_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_internal.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Builders.cpp
+ax/Builders.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/ax/Builders.h
+Interop.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Interop.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Drawing.cpp
+ax/Drawing.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/ax/Drawing.h
+ax/Math2D.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/ax/Math2D.h
+Interop.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Interop.h
+cmath
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Interop.h
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/imgui.h
+ax/Math2D.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/ax/Math2D.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Widgets.cpp
+ax/Widgets.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/ax/Widgets.h
+Interop.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Interop.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer/Application.h
+imgui.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer/Blueprints.cpp
+Application.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer/Application.h
+string
+-
+vector
+-
+map
+-
+algorithm
+-
+utility
+-
+NodeEditor/imgui_node_editor.h
+-
+ax/Math2D.h
+-
+ax/Builders.h
+-
+ax/Widgets.h
+-
+imgui_internal.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer/Choreographer.cpp
+Application.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer/Application.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/plugin_custom_assert.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/imgui.h
+plugin_custom_assert.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/plugin_custom_assert.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/plugin_custom_assert.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.cpp
+./imgui/imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+./imgui/imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+cimgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.h
+stdio.h
+-
+stdint.h
+-
+stdarg.h
+-
+stdbool.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imconfig.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+ctype.h
+-
+stdio.h
+-
+stddef.h
+-
+stdint.h
+-
+stb_sprintf.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/stb_sprintf.h
+Windows.h
+-
+windows.h
+-
+TargetConditionals.h
+-
+Carbon/Carbon.h
+-
+imm.h
+-
+imgui_user.inl
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_user.inl
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imconfig.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+stdint.h
+-
+imgui_user.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_user.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_demo.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+ctype.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdint.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_draw.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+stdio.h
+-
+alloca.h
+-
+malloc.h
+-
+stdlib.h
+-
+imstb_rectpack.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_rectpack.h
+imstb_truetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_truetype.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+limits.h
+-
+imstb_textedit.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_textedit.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_widgets.cpp
+imgui.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h
+imgui_internal.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_internal.h
+ctype.h
+-
+stddef.h
+-
+stdint.h
+-
+imstb_textedit.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_textedit.h
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_rectpack.h
+stdlib.h
+-
+assert.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_textedit.h
+string.h
+-
+
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imstb_truetype.h
+stb_truetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/stb_truetype.h
+stdio.h
+-
+stb_truetype.h
+C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/stb_truetype.h
+math.h
+-
+math.h
+-
+math.h
+-
+math.h
+-
+math.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+string.h
+-
+

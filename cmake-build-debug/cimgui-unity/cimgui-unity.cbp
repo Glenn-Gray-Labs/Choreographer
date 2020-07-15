@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cimgui-unity"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cimgui\;CMake Files\cimgui-unity\;CMake Files\cimgui-freetype\;CMake Files\cimgui-freetype\freetype2\;CMake Files\cimgui-freetype\freetype2\builds\;CMake Files\cimgui-freetype\freetype2\builds\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Caleb Gray/Projects/Choreographer/cmake-build-debug/cimgui-unity"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cimgui-unity">
+				<Option output="C:/Users/Caleb Gray/Projects/Choreographer/cmake-build-debug/cimgui-unity/cimgui.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Caleb Gray/Projects/Choreographer/cmake-build-debug/cimgui-unity"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1"/>
+					<Add option="-DIMGUI_API=__declspec(dllexport)"/>
+					<Add option="-DIMGUI_IMPL_API=&quot;extern &quot;C&quot; __declspec(dllexport) &quot;"/>
+					<Add option="-DIMGUI_USER_CONFIG=&quot;imconfig_unity.h&quot;"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/../cimgui"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/../cimgui/imgui"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 cimgui-unity"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cimgui-unity/fast">
+				<Option output="C:/Users/Caleb Gray/Projects/Choreographer/cmake-build-debug/cimgui-unity/cimgui.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Caleb Gray/Projects/Choreographer/cmake-build-debug/cimgui-unity"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DIMGUI_DISABLE_OBSOLETE_FUNCTIONS=1"/>
+					<Add option="-DIMGUI_API=__declspec(dllexport)"/>
+					<Add option="-DIMGUI_IMPL_API=&quot;extern &quot;C&quot; __declspec(dllexport) &quot;"/>
+					<Add option="-DIMGUI_USER_CONFIG=&quot;imconfig_unity.h&quot;"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/../cimgui"/>
+					<Add directory="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/../cimgui/imgui"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 cimgui-unity/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Caleb Gray\Projects\Choreographer\cmake-build-debug\cimgui-unity\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/crude_json.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/crude_json.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_bezier_math.inl">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_canvas.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_canvas.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_extra_math.inl">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_api.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/NodeEditor/imgui_node_editor_internal.inl">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Builders.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Builders.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Drawing.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Drawing.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Widgets.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/ax/Widgets.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer/Blueprints.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/choreographer/Choreographer.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/imconfig_unity.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/plugin_custom_assert.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/plugin_custom_assert.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/cimgui.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui.h">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_demo.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_draw.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/imgui/imgui_widgets.cpp">
+			<Option target="cimgui-unity"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cimgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-unity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cimgui-unity\"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-freetype/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cimgui-freetype\"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-freetype/freetype2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cimgui-freetype\freetype2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Caleb Gray/Projects/Choreographer/cimgui-freetype/freetype2/builds/cmake/FindHarfBuzz.cmake">
+			<Option virtualFolder="CMake Files\cimgui-freetype\freetype2\builds\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
